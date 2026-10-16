@@ -1,0 +1,1661 @@
+date_received,sender,subject,body,main_recipient,prompt_tokens_initial_categorisation,completion_tokens_initial_categorisation,prompt_tokens_final_categorisation,completion_tokens_final_categorisation,prompt_tokens_executive_dashboard,completion_tokens_executive_dashboard,prompt_tokens_next_action_summary,completion_tokens_next_action_summary,prompt_tokens_draft_response,completion_tokens_draft_response,prompt_tokens_evaluation,completion_tokens_evaluation,cost_categorisation_initial,cost_categorisation_final,cost_executive_dashboard,cost_next_action_summary,cost_draft_response,cost_evaluation,total_prompt_tokens_per_email,total_completion_tokens_per_email,total_tokens_per_email,total_cost_per_email,email_body_length,initial_categorization_response,initial_urls_found,identified_spam_indicators,urls_safe_browsing_results,final_categorization_response,category,reason,final_Urgent & High-Priority Emails_probability,final_Urgent & High-Priority Emails_reason,final_Deadline-Driven Emails_probability,final_Deadline-Driven Emails_reason,final_Routine Updates & Check-ins_probability,final_Routine Updates & Check-ins_reason,final_Non-Urgent Informational Emails_probability,final_Non-Urgent Informational Emails_reason,final_Personal & Social Emails_probability,final_Personal & Social Emails_reason,final_Spam/Unimportant Emails_probability,final_Spam/Unimportant Emails_reason
+03/03/2025,Julia Martin,Approval Request: Budget Approval Needed by EOD ,"Hi Alex,
+
+I hope you're doing well. As we approach the deadline for finalizing the budget, I wanted to bring this to your attention. We need approval by the end of today to ensure smooth execution of next quarter's projects.
+
+Attached, you'll find the latest budget breakdown. Let me know if you have any concerns or if you'd like to discuss any of the allocations before we move forward. Your prompt approval will help us avoid unnecessary delays.
+
+Looking forward to your confirmation.
+
+Best,
+Julia Martin
+
+Please prioritize this request.",Alex,765,240,494,224,860.2745098039215,12.313725490196079,1154.2857142857142,109.0,899.7894736842105,73.42105263157895,419,299,0.00025875,0.00020849999999999997,0.00013642941176470586,0.00023854285714285713,0.00017902105263157896,0.00024225,4592.349697773846,957.734778121775,5550.084475895621,0.001263493321539142,540,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a budget approval needed by end of day, suggesting urgency.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.9, ""reason"": ""The email specifies a deadline for budget approval by EOD.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email is not a routine update but rather a request for action.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content requires action rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant and contains a specific request.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not indicate an urgent need for immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.8, ""reason"": ""The subject mentions a budget approval needed by EOD, indicating a time-sensitive request.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""While it involves a budget, it is not a routine update but rather a specific request.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""The email requires action rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional in nature and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found, and the email is relevant.""}
+  }
+}",Deadline-Driven Emails,"The subject mentions a budget approval needed by EOD, indicating a time-sensitive request.",0.0,The email does not indicate an urgent need for immediate action.,0.8,"The subject mentions a budget approval needed by EOD, indicating a time-sensitive request.",0.1,"While it involves a budget, it is not a routine update but rather a specific request.",0.0,The email requires action rather than being informational.,0.0,The email is professional in nature and not personal.,0.0,"No spam indicators were found, and the email is relevant."
+03/03/2025,Fiona White,Are Your APIs Secure? Reddit & Discord Sound the Alarm,"Hi Alex,
+
+A heated Discord discussion in the API Security channel highlighted growing concerns over API vulnerabilitiesexposed keys, weak authentication, and insufficient rate limiting. Recent Reddit threads also pointed out that many companies dont have proper API monitoring in place.
+
+?? 85% of web traffic now involves APIs, but many breaches go unnoticed until customer data is leaked.
+?? OWASP's latest API Security Top 10 stresses automated runtime protection and strong authentication.
+
+Is API security a priority for Orion Techs development team?
+
+Best,
+Fiona White",Alex,763,209,492,190,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00023984999999999998,0.00018779999999999998,0.00013642941176470586,0.0,0.0,0.0,2115.2745098039213,411.3137254901961,2526.5882352941176,0.0005640794117647058,577,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Discussion about APIs suggests a routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Informational content but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""Some personal context but primarily professional.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators present.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive elements identified.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.6, ""reason"": ""Discussion about APIs suggests a routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.3, ""reason"": ""Information about a discussion that can be reviewed later.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""Contains a personal greeting but is primarily informational.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,Discussion about APIs suggests a routine check-in.,0.0,No immediate action required.,0.0,No time-sensitive elements identified.,0.6,Discussion about APIs suggests a routine check-in.,0.3,Information about a discussion that can be reviewed later.,0.1,Contains a personal greeting but is primarily informational.,0.0,No spam indicators found.
+03/03/2025,Samantha Lee,Approval Needed: Project Scope Adjustment for Acme Corp Integration,"Hi Alex,
+
+Weve encountered an unexpected API limitation with Acme Corps system, requiring a slight shift in our integration approach. The team has outlined an alternative solution that ensures we meet the original timeline while maintaining performance standards.
+
+?? Original Plan: Direct API calls for real-time data sync
+?? Proposed Change: Implementing a message queue-based approach (Kafka) to handle intermittent API rate limits
+
+?? Impact on Timeline: No delay to the current delivery schedule
+?? Budget Impact: Minor infra cost increase (~$500/month on AWS)
+
+Please confirm if we can proceed with this adjustment. Let me know if youd like to discuss further.
+
+Best,
+Samantha Lee
+Engineering Lead, Orion Tech Solutions",Alex,761,235,490,199,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00025515,0.00019289999999999997,0.00013642941176470586,0.0,0.0,0.0,2111.2745098039213,446.3137254901961,2557.5882352941176,0.0005844794117647058,728,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""The subject indicates a need for approval, but lacks urgency.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.3, ""reason"": ""The email discusses a project scope adjustment, suggesting a potential deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.5, ""reason"": ""The email appears to be a standard communication regarding project updates.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""The content does not require immediate action.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""No spam indicators present, but not highly relevant.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required indicated in the email.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadline mentioned in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Email discusses project scope adjustment, likely for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information may be useful but not time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found and relevant to work.""}
+  }
+}",Routine Updates & Check-ins,"Email discusses project scope adjustment, likely for review.",0.0,No immediate action required indicated in the email.,0.0,No specific deadline mentioned in the email.,0.7,"Email discusses project scope adjustment, likely for review.",0.2,Information may be useful but not time-sensitive.,0.0,Email is work-related and not personal.,0.0,No spam indicators found and relevant to work.
+03/03/2025,James Patel,Subject: Daily Update  Project Titan (March 3),"Hey Alex,
+
+Quick update on Project Titan for today:
+
+? Completed Today:
+- Finished API integration for the reporting module. Data sync tests are successful with minor latency (~200ms).
+- Resolved the UI responsiveness issue on smaller screens (tested across devices).
+- Security team reviewed latest patches, no critical vulnerabilities found.
+?? In Progress / Challenges:
+- Load Testing: Found performance dips when concurrent users exceed 5,000. Investigating if it's DB bottleneck or caching issue.
+- Client Feedback Implementation: Were waiting on John (Acme Manufacturing) to clarify requirements before finalizing UI changes.
+- Bug #3421 (Session Timeouts): Still reproducing intermittentlyToms team is debugging with logs.
+?? Next Steps (Tomorrow):
+- Start final API optimization based on todays load testing results.
+- Deploy hotfix for session timeouts (if root cause is confirmed).
+- Prep for Fridays internal review with the leadership team.
+- Let me know if you need any specific details or adjustments.
+
+Thanks,
+James Patel
+Engineering Manager, Orion Tech Solutions",Alex,765,231,494,214,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00025334999999999995,0.0002025,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,457.3137254901961,2576.5882352941176,0.0005922794117647058,1083,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required in the email content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned in the email content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email is a daily update on a project, indicating routine communication.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""While it is informative, it is part of a routine update.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email does not contain spam indicators or irrelevant content.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not indicate any urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There is no mention of a deadline in the content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email is a quick update on a project, suggesting it is routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""While it is informative, it is more of a routine update than non-urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found.""}
+  }
+}",Routine Updates & Check-ins,"The email is a quick update on a project, suggesting it is routine.",0.0,The email does not indicate any urgent action required.,0.0,There is no mention of a deadline in the content.,0.8,"The email is a quick update on a project, suggesting it is routine.",0.2,"While it is informative, it is more of a routine update than non-urgent.",0.0,The email is work-related and not personal.,0.0,No spam indicators were found.
+03/03/2025,David Whitmore,[URGENT] Dashboard Syncing Issues  Production Metrics Missing,"Hey Alex,
+
+Weve got a big issue right nowlive production metrics arent syncing properly on the Orion Analytics Dashboard. Some numbers are missing, others just look wrong. Were seeing data gaps in yesterdays batch reports, and my team cant verify production outputs.
+
+Couple of things:
+
+This started sometime overnight. No one touched the system, but by 7 AM today, we noticed discrepancies.
+Not clear if this is an API issue or data processing lag. Can your team confirm?
+Production is running blind right nowwe need this resolved ASAP or at least tell us how to get accurate numbers another way.
+Need an update in the next 24 hours, or Ill have to escalate further. If you need someone from our IT side, let me know.
+
+Thanks,
+David Whitmore
+VP, IT Operations
+Acme Manufacturing",Alex,771,241,500,218,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,437,268,0.00026024999999999996,0.00020579999999999996,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.00022635,4423.730650154798,904.1514447884417,5327.88209494324,0.0012060504643962846,787,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""URGENT"", ""big issue""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates urgency and a significant issue that requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.5, ""reason"": ""The email discusses an issue that may have time-sensitive implications.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content suggests a problem rather than a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email does not provide information that can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""While it has some spam indicators, it is relevant to the recipient.""}
+  }
+}",['no-url'],"['URGENT', 'big issue']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject contains 'URGENT' and mentions a significant issue.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email indicates a pressing problem that may require timely attention.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content suggests an issue rather than a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email does not appear to be informational or non-urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""While it has some spam indicators, it is relevant to the recipient.""}
+  }
+}",Urgent & High-Priority Emails,The subject contains 'URGENT' and mentions a significant issue.,0.8,The subject contains 'URGENT' and mentions a significant issue.,0.6,The email indicates a pressing problem that may require timely attention.,0.2,The content suggests an issue rather than a routine update.,0.1,The email does not appear to be informational or non-urgent.,0.1,The email is work-related and not personal.,0.1,"While it has some spam indicators, it is relevant to the recipient."
+03/03/2025,Lisa Taylor,Quick Check-In  Frontend Updates,"Hi Alex,
+
+Progress today:
+
+1. Wrapped up UI tweaks for the analytics dashboard.
+2. Fixed an annoying layout shift issue on mobilefinal testing happening overnight.
+3. Minor CSS refactoring, which should improve loading speed.
+4. Not urgent, but I need to confirm: Are we good to push the new UI live tomorrow, or should we wait for the full API integration to be done first?
+
+Best
+Lisa T.",Alex,765,209,494,195,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024014999999999998,0.00019109999999999998,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,416.3137254901961,2535.5882352941176,0.0005676794117647059,389,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.9, ""reason"": ""Email is a check-in regarding progress updates.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Contains updates but not critical.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email appears relevant and important.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.9, ""reason"": ""Email is a check-in regarding progress updates.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Could be considered informational but is more of a check-in.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,Email is a check-in regarding progress updates.,0.0,No indication of urgency in the subject or body.,0.0,No time-sensitive content present.,0.9,Email is a check-in regarding progress updates.,0.1,Could be considered informational but is more of a check-in.,0.0,Not a personal or social email.,0.0,No spam indicators found.
+03/03/2025,Nathan Cole,Approval Request: Additional AWS Resources for Project Orion,"Hi Alex,
+
+As we scale up Project Orion, our AWS usage has hit 90% of allocated capacity. To avoid slowdowns, we need to provision additional EC2 instances and storage.
+
+?? Current Issue: Performance bottlenecks due to increased data processing
+?? Proposed Solution: Increase AWS instance count by 20%, adding $1,200/month in costs
+?? Impact on Delivery: Ensures we stay on track for Q2 deadlines
+
+Please approve by March 7 to avoid service degradation.
+
+Best,
+Nathan Cole
+Cloud Architect, Orion Tech Solutions",Alex,762,230,491,190,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002523,0.00018764999999999998,0.00013642941176470586,0.0,0.0,0.0,2113.2745098039213,432.3137254901961,2545.5882352941176,0.0005763794117647058,509,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""Approval request implies some urgency but lacks immediate action requirement.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.3, ""reason"": ""Scaling up a project may suggest a deadline, but no specific deadline mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.5, ""reason"": ""Email discusses project scaling, likely for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""Information about project scaling can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""Email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email is relevant to ongoing project discussions.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Email discusses scaling a project, likely for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information may be useful but not time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is work-related, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"Email discusses scaling a project, likely for review.",0.0,No indication of immediate action required.,0.0,No specific deadlines mentioned.,0.7,"Email discusses scaling a project, likely for review.",0.2,Information may be useful but not time-sensitive.,0.0,"Email is work-related, not personal.",0.0,No spam indicators found.
+03/03/2025,David Kurien,Blocking Issue Alert  Client Data Sync Failing,"Hi Alex,
+
+Weve got a major problemclient transaction data isnt syncing for 20% of requests.
+
+* Logs show timeouts between our service and the database.
+* Issue started after last nights deployment, so likely a code or infra change.
+* Clients have already noticed missing data, and we need an action plan ASAP.
+I can jump on a war room call if needed. Should we roll back now or wait until we isolate the root cause?
+
+- David K.",Alex,769,241,498,211,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,414,275,0.00025995,0.0002013,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.0002271,4396.730650154798,904.1514447884417,5300.88209494324,0.0012020004643962848,431,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a blocking issue that likely requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email discusses a client data sync failure, which may have time-sensitive implications.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content suggests a problem rather than a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email is focused on a specific issue rather than general information.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is business-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email appears to be relevant to business operations.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a major problem that likely requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The issue mentioned may have a time-sensitive nature.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""While it may involve updates, the urgency suggests it's more than routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content suggests urgency rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found, and the content is relevant.""}
+  }
+}",Urgent & High-Priority Emails,The subject indicates a major problem that likely requires immediate attention.,0.8,The subject indicates a major problem that likely requires immediate attention.,0.7,The issue mentioned may have a time-sensitive nature.,0.2,"While it may involve updates, the urgency suggests it's more than routine.",0.1,The content suggests urgency rather than being informational.,0.0,The email is work-related and not personal.,0.0,"No spam indicators found, and the content is relevant."
+03/03/2025,Mark Swarlos,Daily Update  API Migration (March 3),"CC: Tom Richardson (QA Lead), Orion Dev Team
+
+Hey Alex,
+
+Heres todays progress on the API migration:
+
+? Refactored the authentication servicesignificantly improved response time (down from 700ms to 320ms).
+? Merged branch #418 into the main repo after peer review.
+
+? Issue: Hit a weird bug during load testingrandom 401 errors on valid sessions. I suspect a token expiry issue, but its inconsistent. Need your input on whether we roll back changes or push forward.
+
+?? Tomorrow: Finishing API rate-limiting logic and deploying fixes for session timeouts.
+
+Let me know if you want to hop on a quick call to discuss the 401 issue.
+
+ Mark S.",Alex,765,217,494,187,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024494999999999996,0.00018629999999999997,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,416.3137254901961,2535.5882352941176,0.0005676794117647059,645,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content indicated.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email is a daily update regarding API migration.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be deferred but contains relevant information.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""No personal or social content present.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email appears relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadline mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email is a daily update regarding API migration.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be reviewed later but is primarily an update.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,Email is a daily update regarding API migration.,0.0,No immediate action required.,0.0,No specific deadline mentioned.,0.8,Email is a daily update regarding API migration.,0.2,Could be reviewed later but is primarily an update.,0.0,Not a personal or social email.,0.0,No spam indicators found.
+03/03/2025,Tanya Patel,URGENT: Approval Needed for 2-Week Extension on Acme Corp Deployment,"CC: John Spencer (PM), Lisa Tan (QA Lead)
+
+Hi Alex,
+
+Our team missed the February 15 deployment deadline for Acme Corps portal due to unexpected internal team PTO conflicts. We need two more weeks to complete testing.
+
+?? Original Deadline: February 15, 2025
+?? New Proposed Deadline: March 1, 2025
+?? Reason for Delay: Key engineers were unavailable
+
+We understand this is not ideal, but pushing now will help avoid rushed, low-quality delivery. Let us know how youd like to proceed.
+
+Best,
+Tanya Patel
+Project Manager, Orion Tech Solutions",Alex,771,233,500,208,860.2745098039215,12.313725490196079,1154.2857142857142,109.0,899.7894736842105,73.42105263157895,419,266,0.00025544999999999995,0.00019979999999999998,0.00013642941176470586,0.00023854285714285713,0.00017902105263157896,0.00022245,4604.349697773846,901.734778121775,5506.084475895621,0.001231693321539142,543,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""URGENT"", ""Approval Needed""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates urgency and requires immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email discusses an extension, suggesting a time-sensitive matter.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email does not appear to be a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content suggests urgency rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""The email does not exhibit typical spam characteristics but has urgency.""}
+  }
+}",['no-url'],"['URGENT', 'Approval Needed']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.7, ""reason"": ""The subject indicates urgency and requires immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.8, ""reason"": ""The email discusses a time-sensitive extension that needs attention.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""While it involves team members, the urgency diminishes its routine nature.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content is not informational but rather action-oriented.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant and important, not spam.""}
+  }
+}",Deadline-Driven Emails,The email discusses a time-sensitive extension that needs attention.,0.7,The subject indicates urgency and requires immediate action.,0.8,The email discusses a time-sensitive extension that needs attention.,0.2,"While it involves team members, the urgency diminishes its routine nature.",0.1,The content is not informational but rather action-oriented.,0.0,The email is professional and not personal.,0.0,"The email is relevant and important, not spam."
+03/03/2025,David Whitmore,System Crashing During Shift Changes  URGENT,"CC: Michael Reynolds (Client Success Manager), Orion Tech Support
+
+Hey Alex,
+
+Somethings seriously wrongthe Orion Manufacturing System keeps crashing during shift changes (seems like at 6 AM and 6 PM every day?). Operators cant log in, and were losing time restarting workstations.
+
+Not sure if this is server load issue or authentication failing, but either way, its blocking operations. Need someone from your team on this ASAP.
+
+Also, lets jump on a callsending an invite for 3 PM EST.
+
+Thanks,
+David",Alex,763,228,492,204,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,415,271,0.00025124999999999995,0.0001962,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.00022485,4385.730650154798,880.1514447884417,5265.88209494324,0.0011859504643962847,510,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates an urgent issue with system crashing.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.5, ""reason"": ""The email may require timely attention due to system issues.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content does not suggest a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email is likely urgent rather than informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email does not appear to be personal or social.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.9, ""reason"": ""The subject indicates an urgent issue related to system crashing.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The email is time-sensitive due to the nature of the issue.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""The email does not appear to be a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content suggests immediate attention is needed.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is business-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found.""}
+  }
+}",Urgent & High-Priority Emails,The subject indicates an urgent issue related to system crashing.,0.9,The subject indicates an urgent issue related to system crashing.,0.7,The email is time-sensitive due to the nature of the issue.,0.1,The email does not appear to be a routine update.,0.1,The content suggests immediate attention is needed.,0.0,The email is business-related and not personal.,0.0,No spam indicators were found.
+03/03/2025,Emily Johnson,Update  Bug Fixes & Refactoring,"Hey Alex,
+
+Not a lot of new things today, but heres whats done:
+
+- Fixed 3 UI bugs related to dark mode (finally!).
+- Backend refactor in progressshould reduce API call times by ~15%.
+- Still testing the new role-based access controls (RBAC)ETA tomorrow.
+- No blockers from my side. Let me know if you need anything.
+
+Best
+Emily",Alex,765,207,494,206,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00023894999999999998,0.00019769999999999998,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,425.3137254901961,2544.5882352941176,0.0005730794117647059,332,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email discusses updates and bug fixes.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email appears relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not indicate any urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There are no deadlines mentioned in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""The email appears to be a routine update regarding bug fixes.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""The content may contain information but is not time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is from a known contact but is work-related.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found.""}
+  }
+}",Routine Updates & Check-ins,The email appears to be a routine update regarding bug fixes.,0.0,The email does not indicate any urgent action required.,0.0,There are no deadlines mentioned in the email.,0.7,The email appears to be a routine update regarding bug fixes.,0.2,The content may contain information but is not time-sensitive.,0.1,The email is from a known contact but is work-related.,0.0,No spam indicators were found.
+03/03/2025,Jake Domang,"""10X Your Dev Team's Productivity with AI  Free Trial Ends Soon!""","Hi Alex,
+
+Are your developers spending too much time debugging and fixing code instead of innovating? Our AI-powered coding assistant can write, optimize, and debug your code in seconds!
+
+?? Limited-time offer: Get 3 months FREE if you sign up today!
+
+?? Claim Your Free Trial Now
+
+Best,
+Jake from DevBoost AI",Alex,767,217,507,206,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024524999999999997,0.00019965,0.00013642941176470586,0.0,0.0,0.0,2134.2745098039213,435.3137254901961,2569.5882352941176,0.0005813294117647059,309,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""10X"", ""Productivity"", ""AI"", ""free"", ""limited time offer""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""Potentially relevant but not urgent.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.5, ""reason"": ""Informational content about productivity.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.8, ""reason"": ""Contains multiple spam indicators.""}
+  }
+}",['no-url'],"['10X', 'Productivity', 'AI', 'free', 'limited time offer']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not require immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There is no indication of a deadline or time-sensitive content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email may contain useful information but lacks urgency.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.3, ""reason"": ""The content is informational but not critical.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is from a known contact but is business-related.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.4, ""reason"": ""Contains multiple spam indicators suggesting it may be promotional.""}
+  }
+}",Spam/Unimportant Emails,Contains multiple spam indicators suggesting it may be promotional.,0.0,The email does not require immediate action.,0.0,There is no indication of a deadline or time-sensitive content.,0.2,The email may contain useful information but lacks urgency.,0.3,The content is informational but not critical.,0.1,The email is from a known contact but is business-related.,0.4,Contains multiple spam indicators suggesting it may be promotional.
+03/03/2025,Bob Smith,?? Security Risk  Critical Patch Delayed,"Hi Alex,
+
+We have a high-risk delaythe security patch rollout was supposed to happen today, but infra team found dependency conflicts.
+
+a. Impact: Without the patch, were still exposed to a known vulnerability (CVE-2025-1243).
+b. Current Status: Infra team is testing a manual workaround, but they arent confident yet.
+c. Risk: If we delay beyond tomorrow, Sentinel Cyber Inc. will breach their compliance SLA.
+
+How do you want to handle this? Should we push the patch with risks or delay further?
+
+Best,
+Bob Smith
+
+Let me know if you have any questions.",Alex,767,240,498,223,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,406,269,0.00025905,0.0002085,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.00022229999999999998,4386.730650154798,909.1514447884417,5295.88209494324,0.0012035004643962846,557,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""Security Risk"", ""Critical Patch Delayed""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a security risk which typically requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The mention of a critical patch suggests a time-sensitive issue.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email does not appear to be a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content suggests urgency rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""While it has some spam indicators, the urgency suggests it is important.""}
+  }
+}",['no-url'],"['Security Risk', 'Critical Patch Delayed']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a security risk which typically requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The mention of a critical patch delay suggests a time-sensitive issue.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email does not appear to be a routine update but rather a critical issue.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content does not suggest it can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""While it has spam indicators, the urgency of the content suggests it is important.""}
+  }
+}",Urgent & High-Priority Emails,The subject indicates a security risk which typically requires immediate attention.,0.8,The subject indicates a security risk which typically requires immediate attention.,0.7,The mention of a critical patch delay suggests a time-sensitive issue.,0.2,The email does not appear to be a routine update but rather a critical issue.,0.1,The content does not suggest it can be deferred.,0.0,The email is not personal or social in nature.,0.1,"While it has spam indicators, the urgency of the content suggests it is important."
+03/03/2025,George Harris,Supply Chain Attacks Are Increasing  Are You Prepared?,"Hi Alex,
+
+The SolarWinds breach and Log4Shell incident highlighted how vulnerable software supply chains can be. AWS re:Invent speakers emphasized:
+
+?? Software Bill of Materials (SBOM) as a must-have
+?? Dependency tracking & automated package scanning
+?? Zero-trust architecture as the new security standard
+
+Reddit security discussions suggest many companies still arent implementing these safeguards. How does Orion Tech handle supply chain security?
+
+Best,
+George ",Alex,766,217,495,211,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002451,0.00020084999999999998,0.00013642941176470586,0.0,0.0,0.0,2121.2745098039213,440.3137254901961,2561.5882352941176,0.0005823794117647058,469,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.1, ""reason"": ""No immediate action required, content is informational.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.1, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Content appears to be an update on security issues.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.5, ""reason"": ""Informational content that can be reviewed later.""},
+    ""Personal & Social Emails"": {""probability"": 0.2, ""reason"": ""Sender is known but content is not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""No spam indicators present.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.1, ""reason"": ""The email discusses security breaches but does not require immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.1, ""reason"": ""No specific deadlines mentioned in the content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.3, ""reason"": ""The email appears to provide information on recent security incidents.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""The content is informative and can be reviewed later.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is from a known sender but is not personal in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found and the content is relevant.""}
+  }
+}",Non-Urgent Informational Emails,The content is informative and can be reviewed later.,0.1,The email discusses security breaches but does not require immediate action.,0.1,No specific deadlines mentioned in the content.,0.3,The email appears to provide information on recent security incidents.,0.4,The content is informative and can be reviewed later.,0.1,The email is from a known sender but is not personal in nature.,0.0,No spam indicators found and the content is relevant.
+03/03/2025,Anna Karvos,"""Revolutionary Cloud Hosting at 90% Off  ACT FAST! ??""","Hey Alex,
+
+Tired of slow, expensive cloud hosting? With QuantumCloud, you can host your applications at 1/10th the cost with unmatched speed and security.
+
+?? 90% OFF your first 3 months!
+?? Free migration included!
+?? Uptime guarantee of 99.999%
+
+Hurry, this deal expires in 24 hours!
+
+?? Secure Your Spot Now
+
+Best,
+Anna K. (QuantumCloud)",Alex,770,218,515,196,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024629999999999997,0.00019485,0.00013642941176470586,0.0,0.0,0.0,2145.2745098039213,426.3137254901961,2571.5882352941176,0.0005775794117647058,340,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""Revolutionary"", ""90% Off"", ""ACT NOW"", ""Tired of slow, expensive cloud hosting""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.0, ""reason"": ""Content appears promotional.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""Content is promotional and not informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 1.0, ""reason"": ""Contains multiple spam indicators.""}
+  }
+}",['no-url'],"['Revolutionary', '90% Off', 'ACT NOW', 'Tired of slow, expensive cloud hosting']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not require immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There is no indication of a deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.0, ""reason"": ""The content does not reflect routine updates.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""The email is promotional and not informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 1.0, ""reason"": ""Contains multiple spam indicators and is promotional.""}
+  }
+}",Spam/Unimportant Emails,Contains multiple spam indicators and is promotional.,0.0,The email does not require immediate action.,0.0,There is no indication of a deadline.,0.0,The content does not reflect routine updates.,0.0,The email is promotional and not informational.,0.0,The email is not personal or social in nature.,1.0,Contains multiple spam indicators and is promotional.
+03/03/2025,James Wildkorn,"""Alex, This Rolex Would Look GREAT on Your Wrist ?""","Hey Alex,
+
+You've worked hardit's time to reward yourself. Our luxury timepieces are designed for executives like YOU.
+
+?? Exclusive Offer: 50% OFF on Rolex Submariner (TODAY ONLY!)
+
+?? Browse Luxury Watches
+
+Stay classy,
+James, Prestige Timepieces",Alex,770,209,502,200,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024089999999999997,0.00019529999999999998,0.00013642941176470586,0.0,0.0,0.0,2132.2745098039213,421.3137254901961,2553.5882352941176,0.0005726294117647058,249,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""time to reward yourself"", ""limited time offer""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.3, ""reason"": ""Casual tone suggests a check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""Informal content, can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.5, ""reason"": ""Personal message to a known recipient.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.2, ""reason"": ""Contains promotional language.""}
+  }
+}",['no-url'],"['time to reward yourself', 'limited time offer']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not require immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""Contains phrases indicating a limited time offer, suggesting urgency.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.0, ""reason"": ""The email does not provide routine updates.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""The content is not informational and lacks relevance.""},
+    ""Personal & Social Emails"": {""probability"": 0.3, ""reason"": ""The email is addressed personally but has spam indicators.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.9, ""reason"": ""Contains spam indicators and lacks important content.""}
+  }
+}",Spam/Unimportant Emails,Contains spam indicators and lacks important content.,0.0,The email does not require immediate action.,0.7,"Contains phrases indicating a limited time offer, suggesting urgency.",0.0,The email does not provide routine updates.,0.0,The content is not informational and lacks relevance.,0.3,The email is addressed personally but has spam indicators.,0.9,Contains spam indicators and lacks important content.
+03/03/2025,David Whitmore,URGENT: Production Halt  Machine Control System Unresponsive,"CC: Michael Reynolds (Client Success Manager)
+
+Alex,
+
+We have a critical issuethe Orion Machine Control System is not responding. Line operators are unable to send commands to machinery, and production is effectively at a standstill.
+
+Started: March 5, 2025, 7:45 AM
+Systems Affected: Orion Control Module (all units)
+Impact: Full production stop
+
+This needs immediate attention. Can someone call me right now? (Adding a Zoom invite)
+
+David Whitmore (VP, IT Operations)
+ACME MANUFACTURING",Alex,764,240,493,235,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,414,252,0.0002586,0.00021495,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.00021329999999999998,4386.730650154798,904.1514447884417,5290.88209494324,0.0012005004643962848,489,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""URGENT"", ""Production Halt""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates an urgent issue that likely requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.5, ""reason"": ""The mention of a production halt suggests a potential deadline but lacks specific time constraints.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""The email does not appear to be a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content does not suggest it is informational without urgency.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is business-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant to business operations and not spam.""}
+  }
+}",['no-url'],"['URGENT', 'Production Halt']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject contains 'URGENT' and indicates a production halt, suggesting immediate attention is required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email implies a time-sensitive issue related to machine control, which may need prompt action.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email does not appear to be a routine update but rather a critical issue.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content suggests urgency rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is business-related and does not pertain to personal or social matters.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant to business operations and not spam.""}
+  }
+}",Urgent & High-Priority Emails,"The subject contains 'URGENT' and indicates a production halt, suggesting immediate attention is required.",0.8,"The subject contains 'URGENT' and indicates a production halt, suggesting immediate attention is required.",0.6,"The email implies a time-sensitive issue related to machine control, which may need prompt action.",0.2,The email does not appear to be a routine update but rather a critical issue.,0.1,The content suggests urgency rather than being informational.,0.0,The email is business-related and does not pertain to personal or social matters.,0.0,The email is relevant to business operations and not spam.
+03/03/2025,Lisa Taylor,EBR Meeting Invite  Sentinel Cyber Inc. (Microsoft Teams),"?? Date: March 14, 2025
+? Time: 2:00 PM  3:30 PM EST
+?? Platform: Microsoft Teams
+
+?? Join Microsoft Teams Meeting
+Click here to join the meeting
+
+?? Agenda:
+
+SLA Performance Review
+AI-Driven Threat Detection Enhancements
+Incident Resolution Strategies",Mark Whitman,782,204,511,192,860.2745098039215,12.313725490196079,1154.2857142857142,109.0,899.7894736842105,73.42105263157895,401,243,0.00023969999999999997,0.00019184999999999997,0.00013642941176470586,0.00023854285714285713,0.00017902105263157896,0.00020595,4608.349697773846,833.734778121775,5442.084475895621,0.0011914933215391417,253,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive elements present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Meeting invite for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Informational but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Legitimate meeting invite.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required today.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.8, ""reason"": ""Meeting scheduled for March 14, 2025, indicating time sensitivity.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""Could be considered a routine meeting invite.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""Not informational in nature.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Deadline-Driven Emails,"Meeting scheduled for March 14, 2025, indicating time sensitivity.",0.0,No immediate action required today.,0.8,"Meeting scheduled for March 14, 2025, indicating time sensitivity.",0.1,Could be considered a routine meeting invite.,0.0,Not informational in nature.,0.0,Not a personal or social email.,0.0,No spam indicators found.
+03/03/2025,Alex Carter,Scheduling Q1 Executive Business Review (EBR)  Sentinel Cyber Inc.,"Hi Mark,
+
+Hope you're doing well! Were reaching the end of Q1 2025, and wed love to schedule our Quarterly Executive Business Review (EBR) with your team.
+
+?? Proposed Dates:
+    * March 12, 2025 (Wed)  10 AM EST
+    * March 14, 2025 (Fri)  2 PM EST
+?? Key Discussion Points:
+1?? Security Threat Landscape  Trends & insights from our monitoring systems.
+2?? Performance Review  Analysis of incident response times & system reliability.
+3?? Upcoming Roadmap  Enhancements planned for Q2 & beyond.
+4?? Customer Feedback & Open Issues  Addressing any operational concerns.
+
+Let us know which date works best, or suggest an alternative. Also, if theres anything specific youd like to add to the agenda, happy to include it.
+
+Looking forward to the discussion!
+
+Best,
+Alex Carter
+Senior Manager, Orion Tech Solutions",Mark Davidson,767,246,496,194,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00026264999999999996,0.00019079999999999998,0.00013642941176470586,0.0,0.0,0.0,2123.2745098039213,452.3137254901961,2575.5882352941176,0.0005898794117647059,821,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""The email is about scheduling a business review, which may require attention but is not marked as urgent.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.3, ""reason"": ""The subject suggests a scheduled meeting, indicating a potential deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.5, ""reason"": ""The email appears to be a routine check-in regarding a business review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""The content is informational and does not require immediate action.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email does not exhibit characteristics of spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email is a check-in regarding a business review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Could be informational but has a business context.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""Contains a personal greeting but is business-related.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,Email is a check-in regarding a business review.,0.0,No indication of urgency in the subject or body.,0.0,No specific deadlines mentioned.,0.8,Email is a check-in regarding a business review.,0.1,Could be informational but has a business context.,0.1,Contains a personal greeting but is business-related.,0.0,No spam indicators found.
+03/03/2025,Mark Davidson,[High Priority] Authentication Failing for Multiple Users,"Alex,
+
+We have an authentication issuemultiple engineers cannot log in to Orions security monitoring platform. The error message is vague (""Invalid session token""), but it's happening across teams.
+
+Any idea if this is a known issue or a misconfiguration? We need access restored ASAP.
+
+Mark Davidson 
+VP, Security Ops",Alex,763,241,492,210,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,411,239,0.00025905,0.00019979999999999998,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.00020504999999999997,4381.730650154798,867.1514447884417,5248.88209494324,0.0011775504643962847,320,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a high priority issue that likely requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.5, ""reason"": ""The email discusses an authentication issue, which may have a deadline but is not explicitly stated.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content does not suggest a routine update or check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email is not informational and suggests an issue.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email appears to be relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a high priority issue that requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The authentication issue may have a time-sensitive nature.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email does not appear to be a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content suggests urgency rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found, and the email appears relevant.""}
+  }
+}",Urgent & High-Priority Emails,The subject indicates a high priority issue that requires immediate attention.,0.8,The subject indicates a high priority issue that requires immediate attention.,0.6,The authentication issue may have a time-sensitive nature.,0.2,The email does not appear to be a routine update.,0.1,The content suggests urgency rather than being informational.,0.0,The email is not personal or social in nature.,0.0,"No spam indicators were found, and the email appears relevant."
+03/03/2025,Yelen Carter,Review Needed: Weekly Team Status Update ,"Hi Alex,
+
+Here's the weekly status update for our team's progress. We've made steady progress on key deliverables, and I've highlighted the blockers that need immediate attention in the attached report.
+
+Please go through the details and let me know if you have any questions or require further clarifications.
+
+Thanks,
+Yelen Carter
+
+Please prioritize this request.",Alex,761,233,490,216,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00025394999999999997,0.0002031,0.00013642941176470586,0.0,0.0,0.0,2111.2745098039213,461.3137254901961,2572.5882352941176,0.0005934794117647058,365,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.1, ""reason"": ""The email is a status update, which is typically routine.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.2, ""reason"": ""While it may require attention, it does not indicate an immediate deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email is a weekly status update, suggesting it is routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.3, ""reason"": ""It provides information but is not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""There are no spam indicators present.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not indicate any urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There is no mention of a deadline or time-sensitive content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.9, ""reason"": ""The email is a weekly status update, which typically falls under routine communication.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""While it is informative, it is primarily a routine update.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found, and the content is relevant.""}
+  }
+}",Routine Updates & Check-ins,"The email is a weekly status update, which typically falls under routine communication.",0.0,The email does not indicate any urgent action required.,0.0,There is no mention of a deadline or time-sensitive content.,0.9,"The email is a weekly status update, which typically falls under routine communication.",0.1,"While it is informative, it is primarily a routine update.",0.0,The email is work-related and not personal.,0.0,"No spam indicators were found, and the content is relevant."
+03/03/2025,Liam Ross,Approval Needed: Purchase of Design Tool for Engineering Team,"Hi Sarah,
+
+The engineering team is requesting 20 licenses for Adobe Creative Cloud for UI/UX work.
+
+?? Cost: $15,000/year
+?? Justification: Occasional use for internal mockups
+?? Concern: We already have Figma licenses for design
+
+Please let us know if this is approved, or if we should explore a more cost-effective option.
+
+Best,
+Liam Ross
+Tech Lead, Orion Tech Solutions",Sarah,762,227,491,213,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002505,0.00020145,0.00013642941176470586,0.0,0.0,0.0,2113.2745098039213,452.3137254901961,2565.5882352941176,0.0005883794117647059,373,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""The email mentions a request for approval, but lacks urgency.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.3, ""reason"": ""The subject indicates a purchase approval, which may imply a deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.5, ""reason"": ""The email seems to be a standard request for approval.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""The content does not require immediate action.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""No spam indicators are present.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required as the email is a request for approval.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadline mentioned in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""The email is a request for approval, indicating it is routine but may require acknowledgment.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""The content is informative but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found, and the content is relevant.""}
+  }
+}",Routine Updates & Check-ins,"The email is a request for approval, indicating it is routine but may require acknowledgment.",0.0,No immediate action required as the email is a request for approval.,0.0,No specific deadline mentioned in the email.,0.7,"The email is a request for approval, indicating it is routine but may require acknowledgment.",0.2,The content is informative but not urgent.,0.0,"The email is professional in nature, not personal.",0.0,"No spam indicators found, and the content is relevant."
+03/03/2025,Mark Davidson,Security Patch Caused System Instability?,"Alex,
+
+After the latest security patch, our SOC team noticed that some automated threat detection rules are failing.
+
+?? Before Patch: 98% detection accuracy
+?? After Patch: 63% accuracy (big drop!)
+
+Can someone look into this? Not sure if its a config issue or something deeper.
+
+Mark",Alex,760,214,489,198,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024239999999999998,0.00019214999999999998,0.00013642941176470586,0.0,0.0,0.0,2109.2745098039213,424.3137254901961,2533.5882352941176,0.0005709794117647058,286,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Discusses system instability post-update, likely for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information about a security patch, but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators present.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned in the content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""The email discusses a security patch, suggesting it is a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be informational but lacks urgency.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""No personal or social context in the email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"The email discusses a security patch, suggesting it is a routine update.",0.0,No indication of urgency in the subject or body.,0.0,No deadlines mentioned in the content.,0.7,"The email discusses a security patch, suggesting it is a routine update.",0.2,Could be informational but lacks urgency.,0.0,No personal or social context in the email.,0.0,No spam indicators found.
+03/03/2025,Ethan Brown,Update: Employee Engagement Survey Reminder (33),"Hi Daniel,
+
+This is a gentle reminder to complete the Employee Engagement Survey before the deadline. Your feedback is essential in shaping company policies and improving workplace culture.
+
+Please take a few minutes to fill out the survey. Let me know if you have any questions.
+
+Best,
+Ethan Brown
+
+Awaiting your response at the earliest.",Daniel,762,215,491,187,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002433,0.00018585,0.00013642941176470586,0.0,0.0,0.0,2113.2745098039213,414.3137254901961,2527.5882352941176,0.0005655794117647059,339,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.2, ""reason"": ""Reminder for a survey, but no specific deadline mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Gentle reminder for an employee engagement survey.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""No new information provided that requires action.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is work-related.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email is relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.3, ""reason"": ""Reminder for a survey, but not urgent.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Gentle reminder for employee engagement survey.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""Not informational, but a reminder.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,Gentle reminder for employee engagement survey.,0.0,No immediate action required.,0.3,"Reminder for a survey, but not urgent.",0.7,Gentle reminder for employee engagement survey.,0.0,"Not informational, but a reminder.",0.0,Not personal or social in nature.,0.0,No spam indicators found.
+03/03/2025,Ethan Brown,EBR Meeting Invite  Acme Manufacturing (Google Meet),"?? Date: March 18, 2025
+? Time: 3:00 PM  4:30 PM CST
+?? Platform: Google Meet
+
+?? Join Google Meet
+meet.google.com/acme-ebr-2025
+
+?? Agenda:
+
+ERP System Performance & Latency Fixes
+Supply Chain Data Sync Optimization
+Security & Compliance Updates",Alex,779,203,516,196,860.2745098039215,12.313725490196079,1154.2857142857142,109.0,899.7894736842105,73.42105263157895,394,255,0.00023864999999999997,0.000195,0.00013642941176470586,0.00023854285714285713,0.00017902105263157896,0.0002121,4603.349697773846,848.734778121775,5452.084475895621,0.001199743321539142,247,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive elements present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Meeting invite for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Informational but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Relevant meeting invite.""}
+  }
+}",['http://meet.google.com/acme-ebr-2025'],['no_spam_indicators_found'],{'http://meet.google.com/acme-ebr-2025': 'SAFE'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required today.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.8, ""reason"": ""Meeting scheduled for March 18, 2025, requires attention.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""Informative but not routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Can be deferred but contains important information.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found and URL is safe.""}
+  }
+}",Deadline-Driven Emails,"Meeting scheduled for March 18, 2025, requires attention.",0.0,No immediate action required today.,0.8,"Meeting scheduled for March 18, 2025, requires attention.",0.1,Informative but not routine.,0.1,Can be deferred but contains important information.,0.0,Not personal or social in nature.,0.0,No spam indicators found and URL is safe.
+03/03/2025,Rachel Lim,URGENT: Approval for Security Audit Vendor  Time-Sensitive,"Hi Alex,
+
+We still need approval for the security audit contract with CyberShield. This was first sent on February 19, and the vendor is following up.
+
+?? Contract Amount: $25,000
+?? Purpose: Compliance requirement for MedTech client
+?? Risk: Delay may impact compliance certification renewal
+
+Can you confirm approval ASAP? Vendor needs confirmation by March 7.
+
+Best,
+Rachel Lim
+Compliance Officer, Orion Tech Solutions",Alex,766,233,494,219,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,400,237,0.00025469999999999996,0.0002055,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.00020219999999999998,4375.730650154798,866.1514447884417,5241.88209494324,0.0011760504643962848,421,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""URGENT"", ""approval""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject contains 'URGENT' and requests immediate approval.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email implies a need for timely action regarding vendor approval.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.3, ""reason"": ""The email is a follow-up but lacks a clear deadline.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""The content is not purely informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""While it has some spam indicators, it is relevant to the recipient.""}
+  }
+}",['no-url'],"['URGENT', 'approval']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject contains 'URGENT' indicating immediate action is needed.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The email discusses approval for a security audit, suggesting a time-sensitive matter.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""While it may involve routine approval, the urgency diminishes its categorization here.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content does not suggest it can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant and pertains to work-related approval.""}
+  }
+}",Urgent & High-Priority Emails,The subject contains 'URGENT' indicating immediate action is needed.,0.8,The subject contains 'URGENT' indicating immediate action is needed.,0.7,"The email discusses approval for a security audit, suggesting a time-sensitive matter.",0.2,"While it may involve routine approval, the urgency diminishes its categorization here.",0.1,The content does not suggest it can be deferred.,0.0,The email is professional and not personal.,0.0,The email is relevant and pertains to work-related approval.
+03/03/2025,Sarah Lin,[Project Nexus] Weekly Update  Finalizing ML & ERP Testing,"CC: Alex Carter, Orion Tech Solutions Team
+
+Hey John,
+
+Following up on our last discussion. Heres the latest:
+
+? Completed This Week
+  - ERP API Authentication finalized  working with 30-minute token expiry.
+  - ML Model Accuracy at 91% ??  added anomaly detection to improve precision.
+  - Alerting system tuned  now triggering only for high-severity incidents to reduce noise.
+?? Final Review Items
+  - ERP Integration Testing: Can your team do a full test run tomorrow?
+  - Historical Trends UI: We adjusted based on feedbackcan your ops team validate?
+  - Final Sign-Off: Once ERP tests are good, we can close out Phase 2.
+
+Let us know if you need adjustments. Excited to wrap this up soon!
+
+Best,
+Sarah
+",John Mitchell,765,214,494,196,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024315,0.0001917,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,422.3137254901961,2541.5882352941176,0.0005712794117647058,713,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required based on content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Weekly update suggests routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information may be useful but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""No personal or social context present.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email appears relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email is a weekly update, suggesting it is routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be informational but is more likely routine.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""No personal or social context in the email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"The email is a weekly update, suggesting it is routine.",0.0,No indication of urgency in the subject or body.,0.0,No specific deadlines mentioned.,0.8,"The email is a weekly update, suggesting it is routine.",0.2,Could be informational but is more likely routine.,0.0,No personal or social context in the email.,0.0,No spam indicators found.
+03/03/2025,David Whitmore,URGENT: Critical System Downtime  Immediate Attention Required,"Hi Alex,
+
+Were experiencing a major outage with the Orion Analytics Dashboard, and our team is unable to access real-time production data. This issue is impacting multiple manufacturing lines, causing delays in operations.
+
+Issue Details:
+?? Impact: Dashboard is completely inaccessible (error 500)
+?? Start Time: March 5, 2025, 08:15 AM EST
+?? Affected Users: Entire production team (50+ users)
+?? Attempted Fixes: Cleared cache, restarted local systems  no change
+
+Urgent Request:
+We need an immediate resolution or a workaround by 12 PM EST today. If this is a backend issue, please escalate to the engineering team ASAP.
+
+Please provide a status update within the next hour. If required, we are available for a call at your earliest convenience.
+
+Best,
+David Whitmore
+IT Operations Manager, Acme Manufacturing",Alex,767,232,497,219,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,405,273,0.00025425,0.00020595,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.00022455,4384.730650154798,901.1514447884417,5285.88209494324,0.0011984004643962847,815,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""URGENT"", ""immediate action""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates urgency and requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.5, ""reason"": ""The email suggests a time-sensitive issue but lacks a specific deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content does not suggest a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email is not informational and requires action.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not personal or social.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""While it has spam indicators, it is relevant to the recipient.""}
+  }
+}",['no-url'],"['URGENT', 'immediate action']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject contains 'URGENT' and indicates a critical system issue requiring immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The email suggests a time-sensitive situation that needs prompt action.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""The content does not suggest a routine update or check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email is not informational and does not suggest deferral.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant and important, not spam.""}
+  }
+}",Urgent & High-Priority Emails,The subject contains 'URGENT' and indicates a critical system issue requiring immediate attention.,0.8,The subject contains 'URGENT' and indicates a critical system issue requiring immediate attention.,0.7,The email suggests a time-sensitive situation that needs prompt action.,0.1,The content does not suggest a routine update or check-in.,0.1,The email is not informational and does not suggest deferral.,0.0,The email is not personal or social in nature.,0.0,"The email is relevant and important, not spam."
+03/03/2025,Bob Smith,Follow-Up: Server Downtime - Critical Fix Required ,"Hi Daniel,
+
+We have encountered unexpected server downtime, impacting critical services. The IT team is actively working on a resolution, but we require additional input regarding recent configuration changes.
+
+Please review the attached logs and provide any insights that could expedite the fix. Your prompt response is appreciated.
+
+Best,
+Bob Smith
+
+Awaiting your response at the earliest.",Daniel,763,239,492,226,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,406,229,0.00025785,0.0002094,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.0001983,4376.730650154798,871.1514447884417,5247.88209494324,0.0011792004643962847,391,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a critical fix required for server downtime.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email suggests immediate attention due to unexpected server issues.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""While it is a follow-up, the urgency suggests it is more than a routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content implies urgency rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email appears relevant and important, not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.7, ""reason"": ""The subject indicates a critical fix related to server downtime, suggesting urgency.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email discusses unexpected server issues, which may imply a need for timely attention.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.4, ""reason"": ""While it may be routine, the critical nature of the issue elevates its importance.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""The content suggests it is more urgent than informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email appears to be work-related rather than personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found, and the content is relevant.""}
+  }
+}",Urgent & High-Priority Emails,"The subject indicates a critical fix related to server downtime, suggesting urgency.",0.7,"The subject indicates a critical fix related to server downtime, suggesting urgency.",0.6,"The email discusses unexpected server issues, which may imply a need for timely attention.",0.4,"While it may be routine, the critical nature of the issue elevates its importance.",0.2,The content suggests it is more urgent than informational.,0.1,The email appears to be work-related rather than personal.,0.0,"No spam indicators were found, and the content is relevant."
+03/03/2025,Julia Martin,Escalation  Valve Healthcare (Zoom),"?? Date: March 6, 2025
+? Time: 11:00 AM  12:00 PM CST
+?? Platform: Microsoft Teams
+
+?? Join Microsoft Teams Meeting
+Click here to join the meeting
+
+?? Issue: ERP System Downtime Affecting Production
+?? Attendees: Orion Tech Support, Acme IT Team
+",Alex,775,235,504,196,860.2745098039215,12.313725490196079,1154.2857142857142,109.0,899.7894736842105,73.42105263157895,0,0,0.00025725,0.00019319999999999998,0.00013642941176470586,0.00023854285714285713,0.00017902105263157896,0.0,4193.349697773846,625.734778121775,4819.084475895621,0.001004443321539142,247,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.3, ""reason"": ""The email is about an escalation, which may indicate urgency.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.4, ""reason"": ""The email mentions a specific date and time for a meeting.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content suggests a scheduled meeting, typical for routine updates.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email does not provide information that can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email appears relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required today.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.8, ""reason"": ""Email contains a specific date and time for a meeting.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""Could be considered a routine check-in but has a scheduled time.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""Not informational, it is time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Deadline-Driven Emails,Email contains a specific date and time for a meeting.,0.0,No immediate action required today.,0.8,Email contains a specific date and time for a meeting.,0.1,Could be considered a routine check-in but has a scheduled time.,0.0,"Not informational, it is time-sensitive.",0.0,Not personal or social in nature.,0.0,No spam indicators found.
+03/03/2025,Kevin Tran,Approval Request: Dev Environment Upgrade for Faster Builds,"Hi Alex,
+
+The build pipeline is taking 45+ minutes due to aging infrastructure. Were requesting upgraded cloud servers to speed up development.
+
+?? Proposed Upgrade: Move to high-performance AWS instances
+?? Cost Increase: $750/month
+?? Expected Improvement: 60% faster build times
+
+Please approve so we can deploy by March 10.
+
+Best,
+Kevin Tran
+Software Engineer, Orion Tech Solutions",Alex,763,236,492,197,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00025604999999999996,0.000192,0.00013642941176470586,0.0,0.0,0.0,2115.2745098039213,445.3137254901961,2560.5882352941176,0.0005844794117647058,386,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""The email discusses an approval request, but lacks urgency.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.3, ""reason"": ""The context suggests a need for attention, but no specific deadline is mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.5, ""reason"": ""The email appears to be a routine request for approval.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""The content is informational and does not require immediate action.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""The email does not exhibit spam characteristics.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required indicated in the content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadlines mentioned in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""The email discusses a build pipeline, suggesting it is for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be informational but lacks urgency.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"The email discusses a build pipeline, suggesting it is for review.",0.0,No immediate action required indicated in the content.,0.0,No specific deadlines mentioned in the email.,0.7,"The email discusses a build pipeline, suggesting it is for review.",0.2,Could be informational but lacks urgency.,0.0,The email is work-related and not personal.,0.0,No spam indicators found.
+03/03/2025,John Mitchell,RE: [Project Nexus] Weekly Update  ML Model & ERP Integration,"Hey Sarah,
+
+This is great progress! Some quick responses:
+
+1. ERP Authentication  Ill confirm with IT, but I believe the OAuth session lasts 30 minutes. Let me get back to you.
+3. ML Training Data  If the missing entries are under 5%, lets try reconstructing them. Otherwise, filter them out.
+3. Alerting System Call  Lets do a 30-minute sync Friday at 2 PM EST. Ill send an invite.
+4. Also, ML model at 88% is good progress! Lets push for 90% by next update. Let me know if you need anything from us.
+
+Thanks,
+John",Sarah Lin,768,205,497,211,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002382,0.00020114999999999998,0.00013642941176470586,0.0,0.0,0.0,2125.2745098039213,428.3137254901961,2553.5882352941176,0.0005757794117647059,523,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Weekly update on project progress.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Informational content but not time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Relevant to ongoing project.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email discusses progress on a project, indicating it is a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""While it contains information, it is primarily a check-in.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The sender is a colleague, but the context is professional.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found, and the content is relevant.""}
+  }
+}",Routine Updates & Check-ins,"The email discusses progress on a project, indicating it is a routine update.",0.0,No indication of urgency in the content.,0.0,No deadlines mentioned in the email.,0.8,"The email discusses progress on a project, indicating it is a routine update.",0.1,"While it contains information, it is primarily a check-in.",0.1,"The sender is a colleague, but the context is professional.",0.0,"No spam indicators found, and the content is relevant."
+03/03/2025,Daniel Goodpacker,RE: Scheduling Q1 Executive Business Review (EBR)  Acme Manufacturing,"Hey Alex,
+
+Thanks for reaching out. Lets go with March 18 at 3 PM CST.
+
+Agenda looks good, but can we also discuss:
+
+* Supply Chain Visibility Enhancements  Were facing delays in data sync across some suppliers.
+* System Latency Issue  Seeing slow processing times in ERP transactions.
+Also, can we invite our CIO, Samantha Brooks? Shed like to join this discussion.
+
+Best,
+Daniel",Alex,767,231,496,212,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00025364999999999996,0.0002016,0.00013642941176470586,0.0,0.0,0.0,2123.2745098039213,455.3137254901961,2578.5882352941176,0.0005916794117647058,385,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.1, ""reason"": ""No immediate action required, context suggests a scheduled review.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.2, ""reason"": ""Potentially time-sensitive but lacks urgency in the content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.6, ""reason"": ""Email appears to be a follow-up on a scheduled meeting.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Information shared is not critical and can be reviewed later.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email is relevant to business communication.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the email content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email is a response regarding scheduling a business review, indicating a routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""While it contains information, it is more of a routine update.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is from a known contact but is business-related.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found and the content is relevant.""}
+  }
+}",Routine Updates & Check-ins,"The email is a response regarding scheduling a business review, indicating a routine check-in.",0.0,No indication of urgency in the email content.,0.0,No specific deadlines mentioned.,0.8,"The email is a response regarding scheduling a business review, indicating a routine check-in.",0.1,"While it contains information, it is more of a routine update.",0.1,The email is from a known contact but is business-related.,0.0,No spam indicators found and the content is relevant.
+03/03/2025,Sarah Mitchell,URGENT: Overdue Invoice Approval for Cloud Services,"Hi Alex,
+
+The invoice from CloudOps Solutions for $8,500 is now overdue by 15 days.
+
+?? Service Provided: Cloud security monitoring
+?? Original Due Date: February 20, 2025
+?? Risk: Late fees + potential service disruption
+
+Can we get this approved ASAP to avoid penalties?
+
+Best,
+Sarah Mitchell
+Finance Lead, Orion Tech Solutions",Alex,764,240,494,228,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,0,0,0.0002586,0.00021089999999999998,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.0,3973.7306501547982,645.1514447884417,4618.88209494324,0.0009831504643962848,329,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""URGENT"", ""Overdue Invoice""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""Contains 'URGENT' and refers to an overdue invoice requiring immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The mention of an overdue invoice suggests a time-sensitive matter.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""Less likely as the email indicates urgency.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Not applicable due to the urgent nature of the content.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""Not applicable as the email is business-related.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""Contains indicators of urgency and a specific request, not typical of spam.""}
+  }
+}",['no-url'],"['URGENT', 'Overdue Invoice']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject contains 'URGENT', indicating a need for immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The mention of an 'Overdue Invoice' suggests a time-sensitive matter.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The email does not appear to be a routine update, but rather a request for action.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content is not informational but rather action-oriented.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.1, ""reason"": ""While it has spam indicators, it is relevant to the recipient's work.""}
+  }
+}",Urgent & High-Priority Emails,"The subject contains 'URGENT', indicating a need for immediate attention.",0.8,"The subject contains 'URGENT', indicating a need for immediate attention.",0.7,The mention of an 'Overdue Invoice' suggests a time-sensitive matter.,0.2,"The email does not appear to be a routine update, but rather a request for action.",0.1,The content is not informational but rather action-oriented.,0.1,"The email is professional in nature, not personal.",0.1,"While it has spam indicators, it is relevant to the recipient's work."
+03/03/2025,Mark Davidson,Firewall Logs Disappeared  Whats Going On?,"Hey Alex,
+
+We noticed that firewall logs from February 20-24 are missing from Orion's dashboard. We need these for audit compliance, so this is a major concern.
+
+Can you urgently check if this is a storage issue or data corruption?
+
+Mark Davidson
+
+VP, Security Ops, SENTINEL CYBER INC",Daniel,765,222,494,211,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024795,0.0002007,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,445.3137254901961,2564.5882352941176,0.0005850794117647058,284,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""The subject suggests a potential issue but lacks urgency.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.1, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.5, ""reason"": ""The email appears to be a routine check on firewall logs.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information about logs, but no immediate action required.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The content seems relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""The subject suggests a potential issue, but no immediate action is required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.1, ""reason"": ""No specific deadlines mentioned in the content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.5, ""reason"": ""The email appears to be a routine check on firewall logs.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Information may be useful but does not require immediate attention.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found, and the content is relevant.""}
+  }
+}",Routine Updates & Check-ins,The email appears to be a routine check on firewall logs.,0.2,"The subject suggests a potential issue, but no immediate action is required.",0.1,No specific deadlines mentioned in the content.,0.5,The email appears to be a routine check on firewall logs.,0.1,Information may be useful but does not require immediate attention.,0.0,The email is work-related and not personal.,0.0,"No spam indicators found, and the content is relevant."
+03/03/2025,Rachel Thompson,URGENT: Medication Alerts Not Firing  This is Dangerous,"Alex,
+
+We have a serious issuethe automated medication alerts are not firing for ICU patients. This is a patient safety risk.
+
+This needs to be fixed immediately. Sending an invite for an emergency call in 30 mins.
+
+Rachel Thompson
+AVP, Clinical Systems, Valve healthcare",Alex,768,235,498,241,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,0,0,0.0002562,0.0002193,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.0,3981.7306501547982,653.1514447884417,4634.88209494324,0.0009891504643962847,272,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""URGENT"", ""serious issue""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates urgency and a serious issue that requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.5, ""reason"": ""While there is urgency, no specific deadline is mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""The content suggests a problem rather than a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email does not provide information that can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant and addresses a serious issue.""}
+  }
+}",['no-url'],"['URGENT', 'serious issue']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject contains 'URGENT' and the body mentions a 'serious issue', indicating immediate attention is required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email discusses an issue that may need prompt resolution, suggesting a time-sensitive nature.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content does not suggest a routine update but rather an urgent matter.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email does not provide information that can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is work-related and does not pertain to personal or social matters.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email is relevant and pertains to a serious issue, not spam.""}
+  }
+}",Urgent & High-Priority Emails,"The subject contains 'URGENT' and the body mentions a 'serious issue', indicating immediate attention is required.",0.8,"The subject contains 'URGENT' and the body mentions a 'serious issue', indicating immediate attention is required.",0.6,"The email discusses an issue that may need prompt resolution, suggesting a time-sensitive nature.",0.2,The content does not suggest a routine update but rather an urgent matter.,0.1,The email does not provide information that can be deferred.,0.1,The email is work-related and does not pertain to personal or social matters.,0.0,"The email is relevant and pertains to a serious issue, not spam."
+03/03/2025,Sarah Kaur,"Alex, Youve Been Chosen for Our CEO Mastermind Event ??","Dear Alex,
+
+As a senior leader in tech, you've been handpicked to join an elite mastermind group of CEOs and tech visionaries.
+
+?? VIP networking event in Miami
+?? Exclusive access to multi-million-dollar business insights
+?? Only 15 spots available
+
+?? Apply Now
+
+Best,
+Sarah from Executive Circles",Alex,770,220,513,204,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002475,0.00019935,0.00013642941176470586,0.0,0.0,0.0,2143.2745098039213,436.3137254901961,2579.5882352941176,0.0005832794117647058,299,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""You’ve Been Chosen"", ""CEO Mastermind"", ""senior leader in tech""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""Potentially relevant but lacks urgency.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.3, ""reason"": ""Informational content but not critical.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.5, ""reason"": ""Contains spam indicators suggesting promotional content.""}
+  }
+}",['no-url'],"['You’ve Been Chosen', 'CEO Mastermind', 'senior leader in tech']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not require immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There is no indication of a time-sensitive deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.0, ""reason"": ""The content does not suggest a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email may contain information but is likely not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.9, ""reason"": ""Contains multiple spam indicators suggesting it is likely spam.""}
+  }
+}",Spam/Unimportant Emails,Contains multiple spam indicators suggesting it is likely spam.,0.0,The email does not require immediate action.,0.0,There is no indication of a time-sensitive deadline.,0.0,The content does not suggest a routine update.,0.1,The email may contain information but is likely not urgent.,0.0,The email is not personal or social in nature.,0.9,Contains multiple spam indicators suggesting it is likely spam.
+03/03/2025,Julia Martin,Follow-Up: Q1 Executive Business Review  Valve Healthcare,"CC: Alex Carter, Orion Leadership Team
+
+Hi Rachel,
+
+Great discussion today! Heres a summary of key takeaways & next steps:
+
+?? Key Highlights from Todays EBR
+? EHR System Performance  99.8% uptime, but some reports show slow load times on large patient records.
+? FHIR Integration Issues  Found vendor-side API inconsistencies; working on a solution.
+? Mobile EHR Usability  Need UI/UX tweaks based on physician feedback.
+
+?? Action Items & Next Steps
+?? Orion to deliver a fix for large record load times by April 5.
+?? EHR UI/UX team to schedule a usability workshop with physicians.
+?? FHIR API vendor call scheduled for March 27 to address inconsistencies.
+
+Let us know if we missed anything! Looking forward to continued success.
+
+Best,
+Julia",Rachel,766,228,495,205,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002517,0.00019725,0.00013642941176470586,0.0,0.0,0.0,2121.2745098039213,445.3137254901961,2566.5882352941176,0.0005853794117647059,752,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.1, ""reason"": ""No immediate action required, but follow-up is mentioned.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.2, ""reason"": ""Potentially time-sensitive due to the mention of a business review.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.6, ""reason"": ""Follow-up suggests a routine check-in on business matters.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Information may be useful but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is business-related, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email appears relevant to business context.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email appears to be a follow-up for a business review, suggesting it is routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""While it is routine, it may not require immediate attention.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is business-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"The email appears to be a follow-up for a business review, suggesting it is routine.",0.0,No indication of urgency in the subject or body.,0.0,No specific deadlines mentioned.,0.8,"The email appears to be a follow-up for a business review, suggesting it is routine.",0.2,"While it is routine, it may not require immediate attention.",0.0,The email is business-related and not personal.,0.0,No spam indicators found.
+03/03/2025,Olivia Chen,Approval Request: Travel Budget for AWS Summit 2025,"CC: Olivia Chen (HR), Daniel Wong (DevOps)
+
+Hi Alex,
+
+The AWS Summit 2025 in Chicago is a great networking and learning opportunity for the DevOps team. Were requesting approval for 2 team members to attend.
+
+?? Estimated Cost: $3,500 (flights + hotels)
+?? Justification: Hands-on training for AWS cost optimization
+?? ROI: Can reduce cloud expenses by 15-20%
+
+Please confirm if we can proceed.
+
+Best,
+Olivia Chen
+HR Manager, Orion Tech Solutions",Alex,765,229,494,186,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00025215000000000003,0.0001857,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,427.3137254901961,2546.5882352941176,0.0005742794117647059,447,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""Approval request suggests some urgency but lacks immediate action requirement.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.3, ""reason"": ""Travel budget may have a deadline but no specific date mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.4, ""reason"": ""Email appears to be a standard approval request.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Lacks critical information that would make it non-urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is professional in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email is relevant to work and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadline mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Approval request for a budget, likely for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be deferred but involves budget approval.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"Approval request for a budget, likely for review.",0.0,No immediate action required.,0.0,No specific deadline mentioned.,0.8,"Approval request for a budget, likely for review.",0.2,Could be deferred but involves budget approval.,0.0,Not a personal or social email.,0.0,No spam indicators found.
+03/03/2025,LuckyDraw,You Won a Free iPhone 15 Pro! ?? Click to Claim,"CONGRATULATIONS ALEX!
+
+You've been randomly selected to receive a FREE iPhone 15 Pro! ????
+
+?? Click below to claim your prize!
+
+?? Claim Your iPhone Now
+
+(Note: Shipping fee may apply)
+
+Best,
+LuckyDraw Rewards",Michael,769,213,502,202,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024314999999999997,0.0001965,0.00013642941176470586,0.0,0.0,0.0,2131.2745098039213,427.3137254901961,2558.5882352941176,0.0005760794117647058,210,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""You Won"", ""Free"", ""Click to Claim""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.0, ""reason"": ""No updates or check-ins indicated.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""Content is promotional and not informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""No personal or social context.""},
+    ""Spam/Unimportant Emails"": {""probability"": 1.0, ""reason"": ""Contains multiple spam indicators and promotional content.""}
+  }
+}",['no-url'],"['You Won', 'Free', 'Click to Claim']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not require immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There is no time-sensitive content in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.0, ""reason"": ""The email does not provide routine updates.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""The email does not contain useful information.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is not from a known personal contact.""},
+    ""Spam/Unimportant Emails"": {""probability"": 1.0, ""reason"": ""The email contains multiple spam indicators and is likely a scam.""}
+  }
+}",Spam/Unimportant Emails,The email contains multiple spam indicators and is likely a scam.,0.0,The email does not require immediate action.,0.0,There is no time-sensitive content in the email.,0.0,The email does not provide routine updates.,0.0,The email does not contain useful information.,0.0,The email is not from a known personal contact.,1.0,The email contains multiple spam indicators and is likely a scam.
+03/03/2025,Helen Paul,Daily Stand-up  Frontend Team (Microsoft Teams),"?? Date: March 4, 2025
+? Time: 11:00 AM  11:15 AM EST
+?? Platform: Microsoft Teams
+
+?? Join Microsoft Teams Meeting
+Click here to join the meeting
+
+?? Risk Item: UI Bugs Reported in Valve Healthcares Mobile Dashboard",Alex,777,205,506,196,860.2745098039215,12.313725490196079,1154.2857142857142,109.0,899.7894736842105,73.42105263157895,0,0,0.00023955,0.0001935,0.00013642941176470586,0.00023854285714285713,0.00017902105263157896,0.0,4197.349697773846,595.734778121775,4793.084475895621,0.0009870433215391418,218,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadline mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Related to a scheduled team meeting.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Informational but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Relevant to work context.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""Scheduled meeting on March 4, 2025, indicates time sensitivity.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""Part of regular team communication, but not urgent.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""Could be deferred if not directly involved.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Deadline-Driven Emails,"Scheduled meeting on March 4, 2025, indicates time sensitivity.",0.0,No immediate action required.,0.7,"Scheduled meeting on March 4, 2025, indicates time sensitivity.",0.2,"Part of regular team communication, but not urgent.",0.1,Could be deferred if not directly involved.,0.0,Not a personal or social email.,0.0,No spam indicators found.
+03/03/2025,Mark Davidson,RE: [Security AI Module] Weekly Update  Phase 1 Progress,"Hey Nathan,
+
+Thanks for the update. A few things:
+    1. False Positives  At 23%, its still too noisy. Can you share an updated confusion matrix so we can analyze misclassifications?
+    2. Log Parsing  What percentage of logs are being rejected? If it's over 10%, we may need to modify our data formatting.
+    3. Compliance Review  Our AWS team is reviewing this Mondayexpect an answer by Mar 12.
+Ill loop in our SOC team for the Wednesday session. Lets aim to cut false positives down to under 10% before production.
+
+Best,
+Mark",Nathan Cole,768,216,497,205,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002448,0.00019754999999999998,0.00013642941176470586,0.0,0.0,0.0,2125.2745098039213,433.3137254901961,2558.5882352941176,0.0005787794117647059,538,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required based on content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive elements present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email appears to be a follow-up on a previous update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be deferred but contains relevant information.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators present.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive elements mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email is a response to an update, indicating a routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""While it contains information, it is more of a routine update.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is from a known contact but is primarily professional.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"The email is a response to an update, indicating a routine check-in.",0.0,No indication of urgency in the content.,0.0,No time-sensitive elements mentioned.,0.8,"The email is a response to an update, indicating a routine check-in.",0.1,"While it contains information, it is more of a routine update.",0.1,The email is from a known contact but is primarily professional.,0.0,No spam indicators found.
+03/03/2025,John Mitchell,RE: [Project Nexus] Weekly Update  Phase 2 Progress,"CC: Alex Carter, , Orion Tech Team
+
+Hey Sarah,
+
+Thanks for the update! The progress looks good overall. A few things:
+
+1. Production Analytics Dashboard  We had a few folks test it, and they love the real-time visibility. One concern: Can we add historical trend comparisons?
+2. ML Model  If were still at 82%, do we need to collect more training data? What's the biggest blocker?
+3. ERP Integration  Ill push my IT team on this. Expect the API docs by Monday, Mar 16.
+Also, lets discuss the alerting system in detail next weekwant to ensure it aligns with our operational flow.
+
+Let me know if we should hop on a quick call.
+
+Best,
+John",Sarah Lin,770,210,499,217,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.0002415,0.00020505,0.00013642941176470586,0.0,0.0,0.0,2129.2745098039213,439.3137254901961,2568.5882352941176,0.0005829794117647058,644,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required based on content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive information present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Weekly update suggests routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Could be informational but not urgent.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""No personal or social context indicated.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators present.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No mention of deadlines or time-sensitive content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email appears to be a weekly update, suggesting it is routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""While it may contain information, it is primarily a routine update.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is from a colleague, but lacks personal context.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found, and it appears relevant to the recipient.""}
+  }
+}",Routine Updates & Check-ins,"The email appears to be a weekly update, suggesting it is routine.",0.0,No indication of urgency in the subject or body.,0.0,No mention of deadlines or time-sensitive content.,0.8,"The email appears to be a weekly update, suggesting it is routine.",0.1,"While it may contain information, it is primarily a routine update.",0.1,"The email is from a colleague, but lacks personal context.",0.0,"No spam indicators found, and it appears relevant to the recipient."
+03/03/2025,"Dev Team, Orion",Must-Read: Top 5 Dev Tools of 2025!,"Hey Alex,
+
+Don't get left behind! These are the top 5 must-have dev tools that are changing the game in 2025:
+
+1?? AutoBugFixer
+2?? AI Code Genius
+3?? Zero-Config DevOps
+4?? Cloud Infinity
+5?? Serverless Magic
+
+Read the full review here: ?? Check it out
+
+Best,
+The Dev Insider Team",Alex,769,224,501,210,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024974999999999997,0.00020114999999999998,0.00013642941176470586,0.0,0.0,0.0,2130.2745098039213,446.3137254901961,2576.5882352941176,0.0005873294117647058,281,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""Must-Read"", ""Don't get left behind""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.1, ""reason"": ""The subject suggests importance, but lacks immediate action requirements.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.1, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.4, ""reason"": ""Content appears to be informational about development tools.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.3, ""reason"": ""Can be reviewed later, not time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""Not personal in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.2, ""reason"": ""Contains some promotional language, but not overtly spammy.""}
+  }
+}",['no-url'],"['Must-Read', ""Don't get left behind""]",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""The email does not require immediate action.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""There is no indication of a deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.3, ""reason"": ""The email discusses development tools, which may be of interest but not urgent.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.5, ""reason"": ""The content is informational and can be reviewed later.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is from a team and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.2, ""reason"": ""Contains spam indicators but lacks URLs and is from a known sender.""}
+  }
+}",Non-Urgent Informational Emails,The content is informational and can be reviewed later.,0.0,The email does not require immediate action.,0.0,There is no indication of a deadline.,0.3,"The email discusses development tools, which may be of interest but not urgent.",0.5,The content is informational and can be reviewed later.,0.0,The email is from a team and not personal.,0.2,Contains spam indicators but lacks URLs and is from a known sender.
+03/03/2025,Alex,? [EHR Integration] Go-Live Confirmed!,"Ian,
+
+Great news! Encounter Notes now sync in under 2 minutes ??, and audit logs are fully compliant per the latest standards.
+
+Were ready to go live on Mar 22 as planned. Let us know if your team needs final testing before deployment.
+
+Thanks,
+Alex",Ian Adams,765,215,494,187,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024375,0.00018629999999999997,0.00013642941176470586,0.0,0.0,0.0,2119.2745098039213,414.3137254901961,2533.5882352941176,0.0005664794117647058,250,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required or urgency indicated.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive elements present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.7, ""reason"": ""Email discusses a confirmed go-live, likely for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information provided but not critical.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""No personal or social context present.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email appears relevant and not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadlines mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email discusses a confirmed integration, likely for acknowledgment.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information is relevant but not time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Email is work-related, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Routine Updates & Check-ins,"Email discusses a confirmed integration, likely for acknowledgment.",0.0,No immediate action required.,0.0,No specific deadlines mentioned.,0.8,"Email discusses a confirmed integration, likely for acknowledgment.",0.2,Information is relevant but not time-sensitive.,0.0,"Email is work-related, not personal.",0.0,No spam indicators found.
+03/03/2025,Ken Adasmo,Update: HR Policy Update - Acknowledgment Required ,"Hi Sophia,
+
+This is regarding HR Policy Update - Acknowledgment Required. Please review the details and let me know your thoughts.
+
+Please prioritize this request.
+Best,
+Ken Adasmo",Sophia,767,211,496,208,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024165,0.0001992,0.00013642941176470586,0.0,0.0,0.0,2123.2745098039213,431.3137254901961,2554.5882352941176,0.0005772794117647059,180,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No specific deadline mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Related to HR policy update, likely for acknowledgment.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Informational but not time-sensitive.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Relevant to HR, not spam.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the subject or body.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No deadlines mentioned in the email.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email is about an HR policy update requiring acknowledgment.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""While it is informative, it requires acknowledgment, indicating some level of importance.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found and the content is relevant.""}
+  }
+}",Routine Updates & Check-ins,The email is about an HR policy update requiring acknowledgment.,0.0,No indication of urgency in the subject or body.,0.0,No deadlines mentioned in the email.,0.8,The email is about an HR policy update requiring acknowledgment.,0.1,"While it is informative, it requires acknowledgment, indicating some level of importance.",0.0,The email is work-related and not personal.,0.0,No spam indicators found and the content is relevant.
+03/03/2025,Alice Johnson,Pending Approval  Invoice Dispute (Microsoft Teams),"?? Date: March 5, 2025
+? Time: 4:00 PM  4:45 PM EST
+?? Platform: Microsoft Teams
+
+?? Join Microsoft Teams Meeting
+Click here to join the meeting
+
+?? Topic: Invoice Approval Discussion  Unresolved for 14 Days
+?? Attendees: Alex Carter, Finance Team, Project Manager",Alex,776,237,505,198,860.2745098039215,12.313725490196079,1154.2857142857142,109.0,899.7894736842105,73.42105263157895,0,0,0.0002586,0.00019454999999999999,0.00013642941176470586,0.00023854285714285713,0.00017902105263157896,0.0,4195.349697773846,629.734778121775,4825.084475895621,0.001007143321539142,266,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.3, ""reason"": ""The email is about a pending approval which may require attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.4, ""reason"": ""The email mentions a specific date and time for an invoice dispute.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""The content suggests a follow-up but lacks immediate urgency.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The email may contain information but is tied to a specific event.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is business-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email appears to be legitimate and relevant.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required today.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.8, ""reason"": ""The email mentions a specific date and time for an invoice dispute.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.1, ""reason"": ""Could be considered for review but has a specific deadline.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""Not informational; it relates to a pending approval.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not personal or social in nature.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found.""}
+  }
+}",Deadline-Driven Emails,The email mentions a specific date and time for an invoice dispute.,0.0,No immediate action required today.,0.8,The email mentions a specific date and time for an invoice dispute.,0.1,Could be considered for review but has a specific deadline.,0.0,Not informational; it relates to a pending approval.,0.0,Not personal or social in nature.,0.0,No spam indicators found.
+03/03/2025,Mark Davidson,RE: [Security AI Module] Progress Update & Final Testing,"Nathan,
+
+Looks solid! 9.8% false positives is acceptable, and AWS clearance is great news.
+
+? Alerting: Lets do Slack for high-risk alerts, email for standard incidents.
+? SOC team will run validation tomorrowexpect feedback by EOD Mar 5.
+
+Lets stick to the Mar 18 go-live!
+
+Best,
+Mark",Nathan Cole,769,209,498,205,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00024074999999999997,0.00019769999999999998,0.00013642941176470586,0.0,0.0,0.0,2127.2745098039213,426.3137254901961,2553.5882352941176,0.0005748794117647058,288,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No urgent action required.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive content present.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""Email discusses progress update, likely for review.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""Information provided but not critical.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""Email appears relevant and important.""}
+  }
+}",['no-url'],['no_spam_indicators_found'],{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No indication of urgency in the content.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.0, ""reason"": ""No time-sensitive elements mentioned.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.8, ""reason"": ""The email discusses progress updates, indicating a routine check-in.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.2, ""reason"": ""While it is informative, it does not require immediate action.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is professional in nature, not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators found, and the content is relevant.""}
+  }
+}",Routine Updates & Check-ins,"The email discusses progress updates, indicating a routine check-in.",0.0,No indication of urgency in the content.,0.0,No time-sensitive elements mentioned.,0.8,"The email discusses progress updates, indicating a routine check-in.",0.2,"While it is informative, it does not require immediate action.",0.0,"The email is professional in nature, not personal.",0.0,"No spam indicators found, and the content is relevant."
+03/03/2025,Jessica Hector,Get Featured in Forbes 2025!,"Hey Alex,
+
+Were selecting top tech leaders to be featured in Forbes 2025. Could you be next?
+
+?? Apply now and showcase your expertise to millions!
+
+?? Apply Here
+
+Best,
+Jessica, Media Outreach",Alex,761,239,497,199,860.2745098039215,12.313725490196079,0.0,0.0,0.0,0.0,0,0,0.00025755,0.00019394999999999997,0.00013642941176470586,0.0,0.0,0.0,2118.2745098039213,450.3137254901961,2568.5882352941176,0.0005879294117647058,194,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""Get Featured in Forbes"", ""top tech leaders"", ""urgent action""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.2, ""reason"": ""The subject suggests a potential opportunity but lacks immediate action requirements.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.1, ""reason"": ""No specific deadlines mentioned in the content.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.3, ""reason"": ""The email seems to be an update about a selection process.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.4, ""reason"": ""The content appears to be informational without immediate urgency.""},
+    ""Personal & Social Emails"": {""probability"": 0.1, ""reason"": ""The email is from a known sender but lacks personal context.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.9, ""reason"": ""Contains promotional language and potential spam indicators.""}
+  }
+}",['no-url'],"['Get Featured in Forbes', 'top tech leaders', 'urgent action']",{'status': 'No URLs to check'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.0, ""reason"": ""No immediate action required despite the urgency implied.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""Contains time-sensitive language but lacks a specific deadline.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.0, ""reason"": ""Not a routine update; more promotional in nature.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.0, ""reason"": ""Does not provide information that can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""Not a personal or social email.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.9, ""reason"": ""Contains multiple spam indicators and is promotional.""}
+  }
+}",Spam/Unimportant Emails,Contains multiple spam indicators and is promotional.,0.0,No immediate action required despite the urgency implied.,0.7,Contains time-sensitive language but lacks a specific deadline.,0.0,Not a routine update; more promotional in nature.,0.0,Does not provide information that can be deferred.,0.0,Not a personal or social email.,0.9,Contains multiple spam indicators and is promotional.
+03/03/2025,Nathan Ellis,Urgent: Performance Degradation in Production System,"CC: Emma Brooks (Lead Developer), Derek Chan (DevOps Engineer)
+
+Hi Alex,
+
+We've observed a critical slowdown in the production environment since early this morning. Some key details:
+   * Issue: Database response time has increased by 40%, impacting client-side API calls.
+   * Affected Clients: Acme Manufacturing & Valve Healthcare (reports of delayed data processing).
+   * Initial Findings: Likely due to high CPU utilization on our primary DB cluster.
+Action Needed
+   1. Approve an emergency scale-up of the database instance.
+   2. Client communication: Do we send a proactive update, or wait until we resolve?
+If needed, we can hop on a quick Google Meet to discuss next steps.
+
+    ?? Join Meeting: meet.google.com/orion-prod-issue
+    ?? Time: March 4, 2025, 2:30 PM EST
+
+Let me know how youd like to proceed.
+  
+Thanks,
+Nathan
+Site Reliability Engineer, Orion Tech Solutions",Alex,761,234,496,219,860.2745098039215,12.313725490196079,955.6666666666666,91.41666666666667,899.7894736842105,73.42105263157895,0,0,0.00025455,0.0002058,0.00013642941176470586,0.00019819999999999997,0.00017902105263157896,0.0,3972.7306501547982,630.1514447884417,4602.88209494324,0.0009740004643962847,886,"{
+  ""urls_found"": [""no-url""],
+  ""spam_indicators_found"": [""no_spam_indicators_found""],
+  ""initial_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates an urgent issue regarding performance degradation.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.6, ""reason"": ""The email suggests a need for immediate attention due to performance issues.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""While it involves a performance issue, it is not a routine update.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content suggests urgency rather than being informational.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""The email appears to be relevant and important.""}
+  }
+}",['http://meet.google.com/orion-prod-issue'],['no_spam_indicators_found'],{'http://meet.google.com/orion-prod-issue': 'SAFE'},"{
+  ""final_categorization"": {
+    ""Urgent & High-Priority Emails"": {""probability"": 0.8, ""reason"": ""The subject indicates a performance issue that likely requires immediate attention.""},
+    ""Deadline-Driven Emails"": {""probability"": 0.7, ""reason"": ""The email discusses a production issue, suggesting a time-sensitive nature.""},
+    ""Routine Updates & Check-ins"": {""probability"": 0.2, ""reason"": ""While it may involve updates, the urgency of the subject suggests it's more than routine.""},
+    ""Non-Urgent Informational Emails"": {""probability"": 0.1, ""reason"": ""The content does not suggest it can be deferred.""},
+    ""Personal & Social Emails"": {""probability"": 0.0, ""reason"": ""The email is work-related and not personal.""},
+    ""Spam/Unimportant Emails"": {""probability"": 0.0, ""reason"": ""No spam indicators were found, and the content is relevant.""}
+  }
+}",Urgent & High-Priority Emails,The subject indicates a performance issue that likely requires immediate attention.,0.8,The subject indicates a performance issue that likely requires immediate attention.,0.7,"The email discusses a production issue, suggesting a time-sensitive nature.",0.2,"While it may involve updates, the urgency of the subject suggests it's more than routine.",0.1,The content does not suggest it can be deferred.,0.0,The email is work-related and not personal.,0.0,"No spam indicators were found, and the content is relevant."
