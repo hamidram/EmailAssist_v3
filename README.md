@@ -1,83 +1,94 @@
-# Email Assistant (EmailAssist_v3)
+# EmailAssist
 
-> A modern, AI-powered email intelligence and automation assistant designed to streamline correspondence, summarize threads, and draft context-aware responses with absolute data privacy.
+EmailAssist turns the workflow prototyped in `notebooks/EmailAssist_v3.ipynb`
+into a command-line Python project. It filters emails using the Yesterbox
+approach, classifies messages, checks extracted links when Google Safe Browsing
+is configured, and generates an executive summary, critical-email next steps,
+reply drafts, and draft evaluations.
 
----
-
-## 📋 Table of Contents
-- [Overview & Problem Statement](#overview--problem-statement)
-- [Architecture & Workflow](#architecture--workflow)
-- [Tech Stack](#tech-stack)
-- [Project Directory Structure](#project-directory-structure)
-- [Installation & Setup](#installation--setup)
-- [Usage & Demo](#usage--demo)
-- [Configuration & Environment Variables](#configuration--environment-variables)
-- [Roadmap & Future Enhancements](#roadmap--future-enhancements)
-- [License](#license)
-
----
-
-## 🚀 Overview & Problem Statement
-Managing high volumes of daily correspondence can overwhelm productivity, leading to missed action items and context switching. **EmailAssist_v3** solves this by providing:
-* **Automated Triage:** Rapidly categorizes and prioritizes incoming emails based on urgency and sentiment.
-* **Intelligent Summarization:** Condenses lengthy email threads into crisp, actionable bullet points.
-* **Contextual Response Generation:** Drafts professional, customized replies that mirror the desired tone and intent.
-* **Privacy-First Processing:** Supports flexible integration with local LLMs (via Ollama) or high-performance cloud APIs.
-
----
-
-## 🛠️ Architecture & Workflow
-
-The application flows through a modular pipeline designed for clean separation of concerns:
-[ Raw Email Data / API ]
-
-│
-
-▼
-
-[ Ingestion & Parsing ] ──> [ Preprocessing & Cleaning ]
-
-│
-
-▼
-
-[ LLM Intelligence Core ]
-(Local: Ollama / Cloud: OpenAI)
-
-│
-
-▼   
-
-[ Summary & Action Items ] /  [ Draft Response Generation ]
-
----
-
-## ⚙️ Tech Stack
-
-| Component | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Language** | Python | Core logic, data structures, and script execution. |
-| **AI / LLM Integration** | Llama 3 / Mistral (via Ollama) or OpenAI APIs | Semantic analysis, thread summarization, and draft generation. |
-| **Data Processing** | Pandas, Regex | Parsing, cleaning, and structuring email fields. |
-| **Backend Interface** | FastAPI *(optional)* / CLI | Providing structured API endpoints or interactive command-line utility. |
-| **Environment Management** | Python `venv` & `python-dotenv` | Secure configuration and isolated dependency management. |
-
----
-
-## 📂 Project Directory Structure
+## Project layout
 
 ```text
 EmailAssist_v3/
-├── .github/             # GitHub Actions workflows (CI/CD)
-├── data/                # Sample or synthetic email datasets (ignored by git)
-├── notebooks/           # Exploratory Jupyter notebooks (e.g., prototyping v3 logic)
-├── src/                 # Core source code modules
-│   ├── __init__.py
-│   ├── parser.py        # Email parsing & cleaning logic
-│   ├── llm_client.py    # Local/Cloud LLM orchestration
-│   └── pipeline.py      # End-to-end execution workflow
-├── tests/               # Unit and integration tests (pytest)
-├── .env.example         # Template for required environment variables
-├── .gitignore           # Excludes cache, venv, and sensitive credentials
-├── README.md            # Project documentation
-└── requirements.txt     # Pinned Python package dependencies
+├── data/                    # Local email datasets (not committed)
+├── notebooks/               # Original exploratory notebook
+├── outputs/                 # Generated CSV and Markdown report (not committed)
+├── src/
+│   ├── email_assist/        # Installable application package
+│   │   ├── cli.py           # Command-line entry point and file output
+│   │   ├── config.py        # Environment-based configuration
+│   │   ├── constants.py     # Categories and model prompts
+│   │   ├── llm_client.py    # OpenAI-compatible client and JSON parsing
+│   │   ├── parser.py        # CSV validation, dates, and Yesterbox filtering
+│   │   ├── pipeline.py      # Triage, summaries, drafts, and usage tracking
+│   │   ├── reporting.py     # Executive dashboard and Markdown report
+│   │   ├── safety.py        # URL extraction and Safe Browsing integration
+│   │   └── utils.py         # Shared cost calculation
+│   └── *.py                 # Compatibility imports for the original scaffold
+├── tests/                   # Offline unit and pipeline tests
+├── .env.example             # Environment variable template
+├── pyproject.toml           # Package metadata and tooling configuration
+└── requirements.txt         # Editable install shortcut
+```
+
+## Setup
+
+Requires Python 3.10 or newer.
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -e ".[dev]"
+Copy-Item .env.example .env
+```
+
+Set `OPENAI_API_KEY` in `.env`. `OPENAI_BASE_URL` is optional and supports
+OpenAI-compatible providers. `EMAIL_ASSIST_MODEL` defaults to `gpt-4o-mini`.
+Estimated input/output costs default to the notebook's example rates; configure
+`EMAIL_ASSIST_INPUT_COST_PER_MILLION` and
+`EMAIL_ASSIST_OUTPUT_COST_PER_MILLION` for the rates applicable to your provider.
+
+Google Safe Browsing is optional. Set `GOOGLE_SAFE_BROWSING_API_KEY` to enable
+URL checks. Without it, the report explicitly marks link checking as
+`not_configured`; links are not assumed safe.
+
+## Run
+
+By default, the command reads `data/Alex_emails_march_04.csv`, selects the
+calendar day before today, and writes `outputs/processed_emails.csv` and
+`outputs/email_assist_report.md`.
+
+```powershell
+email-assist --input data/Alex_emails_march_04.csv --as-of 2025-03-04
+```
+
+The above selects emails received on 2025-03-03. To process all rows instead:
+
+```powershell
+email-assist --input data/Alex_emails_march_04.csv --all-emails
+```
+
+Use `--output-dir` to choose another destination. The CSV preserves the source
+email fields and adds the categorization, link-safety, generated response,
+evaluation, token, and estimated-cost fields.
+
+## Tests
+
+The test suite uses fake model and URL-check clients; it does not make network
+requests or require API credentials.
+
+```powershell
+python -m pytest
+```
+
+## Data and credentials
+
+Email contents are sent to the configured language-model provider. When enabled,
+extracted URLs are sent to Google Safe Browsing. Review your providers' privacy
+terms before processing real correspondence. Keep `.env`, local datasets, and
+generated reports out of version control.
+
+The previous `config/config.json` contained live-looking credentials. Those
+values have been removed from the working copy. If they were real, revoke and
+rotate them with their providers; use environment variables instead.

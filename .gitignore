@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Exclude an entire configuration folder
+config/
+credentials/
+
+# Local email data and generated reports
+data/
+outputs/
