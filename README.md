@@ -56,8 +56,11 @@ URL checks. Without it, the report explicitly marks link checking as
 ## Run
 
 By default, the command reads `data/Alex_emails_march_04.csv`, selects the
-calendar day before today, and writes `outputs/processed_emails.csv` and
-`outputs/email_assist_report.md`.
+calendar day before today, and writes `outputs/processed_emails.csv`,
+`outputs/email_assist_report.md`, and
+`outputs/category_probability_distribution.png`. The report embeds the
+category probability chart, which shows the distribution for each category
+across the processed emails.
 
 ```powershell
 email-assist --input data/Alex_emails_march_04.csv --as-of 2025-03-04
@@ -72,6 +75,8 @@ email-assist --input data/Alex_emails_march_04.csv --all-emails
 Use `--output-dir` to choose another destination. The CSV preserves the source
 email fields and adds the categorization, link-safety, generated response,
 evaluation, token, and estimated-cost fields.
+Progress bars track email categorization and critical-reply drafting without
+printing per-step status text during the run.
 
 ## Tests
 

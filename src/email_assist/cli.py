@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from .config import Settings
+from .charts import write_category_probability_chart
 from .llm_client import OpenAIClient
 from .parser import filter_yesterbox, load_emails
 from .pipeline import EmailAssistPipeline
@@ -59,6 +60,7 @@ def main(argv: list[str] | None = None) -> int:
         ),
         input_cost_per_million=settings.input_cost_per_million,
         output_cost_per_million=settings.output_cost_per_million,
+        show_progress=True,
     )
     processed, report = pipeline.run(
         selected_emails, as_of=args.as_of.isoformat()
@@ -67,12 +69,20 @@ def main(argv: list[str] | None = None) -> int:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     csv_path = args.output_dir / "processed_emails.csv"
     report_path = args.output_dir / "email_assist_report.md"
+    chart_path = args.output_dir / "category_probability_distribution.png"
     _write_csv(csv_path, emails, processed)
+    write_category_probability_chart(processed, chart_path)
+    report += (
+        "\n## Category probability chart\n\n"
+        "![Distribution of Category Probabilities per Email]"
+        "(category_probability_distribution.png)\n"
+    )
     report_path.write_text(report, encoding="utf-8")
 
     print(f"Processed {len(processed)} email(s).")
     print(f"CSV: {csv_path}")
     print(f"Report: {report_path}")
+    print(f"Chart: {chart_path}")
     return 0
 
 

@@ -60,11 +60,13 @@ def _json_response(value):
 
 def test_pipeline_runs_triage_reports_drafts_and_usage_accounting():
     llm = FakeLLM()
+    progress = []
     pipeline = EmailAssistPipeline(
         llm,
         FakeSafetyChecker(),
         input_cost_per_million=1.0,
         output_cost_per_million=2.0,
+        progress_callback=progress.append,
     )
     emails = [
         {
@@ -100,6 +102,20 @@ def test_pipeline_runs_triage_reports_drafts_and_usage_accounting():
     assert "$5" in llm.calls[0][1]
     assert "Critical emails" in report
     assert len(llm.calls) == 8
+    assert progress == [
+        "Email 1/2: starting categorization.",
+        "Email 1/2: running initial categorization.",
+        "Email 1/2: checking links.",
+        "Email 1/2: determining final category.",
+        "Email 2/2: starting categorization.",
+        "Email 2/2: running initial categorization.",
+        "Email 2/2: checking links.",
+        "Email 2/2: determining final category.",
+        "Generating executive dashboard.",
+        "Critical email 1/1: generating summary and next step.",
+        "Critical email 1/1: drafting reply.",
+        "Critical email 1/1: evaluating reply draft.",
+    ]
 
 
 def test_pipeline_returns_empty_report_without_llm_calls():

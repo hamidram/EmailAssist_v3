@@ -9,8 +9,10 @@ description = "A modular Yesterbox-style email triage and drafting assistant."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "matplotlib>=3.8,<4",
     "openai>=1.61,<2",
     "python-dotenv>=1,<2",
+    "tqdm>=4.66,<5",
 ]
 
 [project.optional-dependencies]
